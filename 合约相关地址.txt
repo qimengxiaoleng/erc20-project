@@ -1,0 +1,26 @@
+Microsoft Windows [版本 10.0.26100.6899]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\35160>curl -X POST http://localhost:8080/api/storage/deploy
+{"contractAddress":"0x94531F7Ef78C372D98663F66362Fe1Dc1162C06E"}
+C:\Users\35160>curl -X POST http://localhost:8080/api/storage/deploy
+{"contractAddress":"0x31C515002C6CC8975C1035785e4042C9db077a29"}
+C:\Users\35160>curl -v -X POST http://localhost:8080/api/storage/deploy
+* Host localhost:8080 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+*   Trying [::1]:8080...
+* Connected to localhost (::1) port 8080
+* using HTTP/1.x
+> POST /api/storage/deploy HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/8.14.1
+> Accept: */*
+>
+* Request completely sent off
+< HTTP/1.1 200
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< Date: Sat, 01 Nov 2025 08:48:41 GMT
+<
+{"contractAddress":"0xd8EA0fc7eD1cacaa9aA6BD7d92A96ABf7F553eae"}* Connection #0 to host localhost left intact
