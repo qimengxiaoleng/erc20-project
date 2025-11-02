@@ -7,7 +7,7 @@ import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 const deployedContracts = {
   60600: {
     ERC20LMT202330551171: {
-      address: "0xB7c61e6987144bC0E692E6Bde2B845B9e29D4cD9",
+      address: "0x67cE741fAAc3257Cb6e3E74BD8a26f014D22Ccdf",
       abi: [
         {
           inputs: [],
